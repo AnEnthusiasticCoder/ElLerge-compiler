@@ -1,0 +1,191 @@
+INT 	 20 
+ILDA 	 0 
+ILDI 	 21 
+STO 
+ILDA 	 1 
+ILDI 	 2 
+STO 
+ILDA 	 2 
+ILDI 	 5 
+STO 
+FLDA 	 3 
+FLDI 	 51 
+FLDI 	 46 
+FLDI 	 49 
+FLDI 	 52 
+LEN 	 4 
+STO 
+SLDA 	 8 
+SLDI 	 104 
+SLDI 	 101 
+SLDI 	 108 
+SLDI 	 108 
+SLDI 	 111 
+LEN 	 5 
+STO 
+SLDA 	 14 
+SLDI 	 119 
+SLDI 	 111 
+SLDI 	 114 
+SLDI 	 108 
+SLDI 	 100 
+LEN 	 5 
+STO 
+BLDA 	 20 
+BLDI 	 1 
+STO 
+ILDA 	 21 
+LDV 
+ILDA 	 22 
+LDV 
+ILDA 	 23 
+LDV 
+ILDA 	 24 
+LDV 
+ILDA 	 25 
+LDV 
+SLDA 	 26 
+LDV 
+SLDA 	 36 
+LDV 
+SLDA 	 46 
+LDV 
+SLDA 	 56 
+LDV 
+FLDA 	 66 
+LDV 
+FLDA 	 71 
+LDV 
+BLDA 	 76 
+LDV 
+BLDA 	 77 
+LDV 
+TLDA 	 78 
+LEN 	 5 
+LDV 
+LDA 	 22 
+ILDI 	 5 
+STO 
+LDA 	 21 
+LDA 	 21 
+LDV 
+ILDI 	 7 
+SUB 
+STO 
+LDA 	 26 
+LDA 	 36 
+LDV 
+LDA 	 46 
+LDV 
+ADD 
+STO 
+TABA 	 78 
+TABI 	 5 
+LDA 	 21 
+LDV 
+STO 
+TABA 	 78 
+TABI 	 4 
+ILDI 	 2 
+STO 
+LDA 	 23 
+TABA 	 78 
+TABI 	 4 
+STO 
+LDA 	 23 
+INN 
+TABA 	 78 
+TABI 	 2 
+LDA 	 78 
+INN 
+LDA 	 21 
+LDV 
+PRN 
+LDA 	 22 
+LDV 
+PRN 
+TABA 	 78 
+TABI 	 4 
+PRN 
+LDA 	 0 
+LDV 
+ILDI 	 45 
+EQL 
+BZE 	 126 
+LDA 	 21 
+STO 
+BFOR 	 1 
+EFOR 	 5 
+LDA 	 23 
+LDA 	 23 
+LDV 
+ILDI 	 5 
+ADD 
+STO 
+BRN 	 118 
+BRN 	 109 
+LDA 	 23 
+ILDI 	 90 
+STO 
+LDA 	 21 
+LDV 
+ILDI 	 14 
+EQL 
+BZE 	 138 
+LDA 	 22 
+ILDI 	 90 
+STO 
+BRN 	 156 
+LDA 	 36 
+LDV 
+SLDI 	 99 
+SLDI 	 111 
+SLDI 	 109 
+SLDI 	 112 
+SLDI 	 105 
+SLDI 	 108 
+SLDI 	 97 
+EQL 
+BZE 	 153 
+LDA 	 22 
+ILDI 	 45 
+STO 
+BRN 	 156 
+LDA 	 22 
+ILDI 	 32 
+STO 
+LDA 	 21 
+LDV 
+CASEE 	 169 
+ILDI 	 1 
+CASET 	 164 
+LDA 	 23 
+ILDI 	 97 
+STO 
+ILDI 	 2 
+CASET 	 169 
+LDA 	 23 
+ILDI 	 94 
+STO 
+LDA 	 26 
+LDV 
+CASEE 	 190 
+SLDI 	 116 
+SLDI 	 101 
+SLDI 	 115 
+SLDI 	 116 
+SLDI 	 49 
+CASET 	 181 
+LDA 	 23 
+ILDI 	 97 
+STO 
+SLDI 	 116 
+SLDI 	 101 
+SLDI 	 115 
+SLDI 	 116 
+SLDI 	 50 
+CASET 	 190 
+LDA 	 23 
+ILDI 	 94 
+STO 
+HLT 

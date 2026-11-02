@@ -1,0 +1,15 @@
+program TestIf;
+var
+  n, reste: real;
+begin
+  n := 14;
+  reste := (n / 2);
+  
+  if n = 0 then
+    write(0)
+  else
+    if n = 1 then
+      write(1)
+    else
+      write(20);
+end.
